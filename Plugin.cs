@@ -29,6 +29,7 @@ namespace BookMuseumTooltip
             }
 
             Harmony.CreateAndPatchAll(typeof(BugTypesPatch));
+            Harmony.CreateAndPatchAll(typeof(FishTypesPatch));
             Logger.LogInfo($"Plugin {PluginInfo.PLUGIN_GUID} is loaded!");
         }
     }
